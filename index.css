@@ -1,8 +1,37 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+}
+
+navbar {
+    width: 500px;
+    height: 100px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgb(37, 37, 37);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        margin-left: 10rem;
+        padding: 10px;
+        background-color: transparent;
+        border: 1px solid rgb(26, 255, 0);
+        color: rgb(26, 255, 0);
+        border-radius: 5px;
+        transition: border 1s;
+    }
+
+    button:hover {
+        background-color: rgb(14, 135, 1);
+        border: 20px;
+    }
 }

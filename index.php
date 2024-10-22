@@ -19,7 +19,20 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <p> Hello <?php echo $_SESSION["email"] ?> !</p>
-    <a href="index.php/?logout=1"><button>logout</button></a>
+    <navbar class="nav">
+        <p> Hello <?php echo $_SESSION["email"] ?> !</p>
+        <a href="index.php/?logout=1"><button>logout</button></a>
+    </navbar>
+    <div class="main">
+        <div class="sideContext">
+            <button class="addbtn">Add</button>
+            <button class="clearbtn">Clear</button>
+        </div>
+        <div class="mainContext">
+            <div class="content">
+                Free feel to talk here :)
+            </div>
+        </div>
+    </div>
 </body>
 </html>
